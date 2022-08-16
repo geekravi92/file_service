@@ -8,14 +8,19 @@ File Service
 $ npm install
 ```
 
+## Put The Data File
+```bash
+file_service/data/<data-excel-file.xlsx>
+```
+
 ## Running the app
 
 ```bash
 # development
-$ npm run start
+$ FILENAME=<data-excel-file.xlsx> npm run start
 
 # watch mode
-$ npm run start:dev
+$ FILENAME=<data-excel-file.xlsx> npm run start:dev
 ```
 
 ## Test
